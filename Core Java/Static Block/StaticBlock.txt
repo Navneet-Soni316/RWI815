@@ -1,0 +1,24 @@
+Static Block:
+*************
+It is prefix with Static keyword and are excuted before the main method(excuted at the time of classloading).
+Before Java 6 static blocks are excuted without using main() in you class also.
+But after Java 6 they excuted when there is main () in  your programme.
+
+public class App {
+    static{
+        System.out.println("Hello there");
+    }
+    public static void main(String[] args) throws Exception {
+        System.out.println("Hello, World!");
+    }
+}
+
+Output: Hello there
+Hello, World!
+--------------------------------------------------------------------------------------------------------------
+
+Functional Interface
+********************
+The interface which can've  only one abstarct method but can 've many default and concrete methods.
+They are used in Streams.
+

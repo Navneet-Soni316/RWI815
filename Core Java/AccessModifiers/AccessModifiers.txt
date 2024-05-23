@@ -1,0 +1,20 @@
+Access Modifiers
+****************
+
+    They are used to modify the acessibility/ scope of variables, methods, and classes.
+    They are of 4 types.
+
+    1. Public Modifier
+        Any variable, method of this kind can be accessed within the class, outside the class, within the package,
+        outside the package by any other class, and outside the package by subclass.
+
+    2. Protected Modifier
+        Any variable, method of this kind can be accessed within the class, outside the class, within the package,
+        , outside the package by subclass but not outside the package by another class.
+
+    3. Default Modifier
+        Any variable, method of this kind can be accessed within the class, outside the class, within the package,
+       but not outside the package.
+
+    4. Private Modifier
+        Any variable, method of this kind can be accessed within the class but not outside the class.
