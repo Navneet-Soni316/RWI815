@@ -1,0 +1,70 @@
+Class :
+***** 
+It is a blueprint of Object. Class contains variables, methods, constructors, blocks.
+
+Class A {
+	int a; // variable
+
+  	A() {
+		//constructor
+    	}
+
+	public int play() {
+		// method
+	}
+
+	static{
+		//static block
+	}
+
+	{ 
+		//Non -static block
+	}
+
+	public static void main(String argos[]) {
+		// main method
+	} 
+}
+
+
+ public class First {
+	//fields/states (variables)
+	//behaviour(methods)
+	//constructor
+	//blocks
+
+	public static void main(String argos[]) {
+		//this is main method of java
+	}
+
+}
+
+
+
+
+Object:
+*******
+It is an instance of a class. Instance means  a block of memory created in heap Area.
+
+Syntax to create an Object  :
+************************** 
+Classname  varname =  new Classname();
+
+
+Class A {
+	public static void main(String args[]) {
+		//Classname  varname =  new Classname();
+		A anyname = new A();   
+	} 
+}
+
+
+package com.jsp;
+public class Test {
+	int a= 10;  //Non static variable
+	public static void main(String[] args) {
+   		Test t = new Test();  //object creation
+   		System.out.println(t.a);
+	}
+}
+
