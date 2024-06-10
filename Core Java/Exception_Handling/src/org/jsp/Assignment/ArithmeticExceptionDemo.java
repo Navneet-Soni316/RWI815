@@ -1,3 +1,7 @@
+//Develop a Java program that prompts the user to enter two integers and performs division.
+//Implement exception handling to catch the ArithmeticException that may occur if the user tries to divide by zero.
+//Provide appropriate error messages for both successful division and division by zero cases.
+
 package org.jsp.Assignment;
 
 import java.util.Scanner;
