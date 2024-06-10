@@ -1,3 +1,7 @@
+/*
+ * Implement exception handling to catch the NullPointerException that may occur and print a meaningful error message.
+ */
+
 package org.jsp.Assignment;
 
 public class NullPointerExceptionDemo {

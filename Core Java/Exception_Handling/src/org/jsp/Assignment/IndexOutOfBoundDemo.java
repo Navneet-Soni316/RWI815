@@ -1,3 +1,9 @@
+/*
+ *  Write a Java program that creates an array of integers and tries to access an element at an index that is out of bounds.
+ *   
+ */
+
+
 package org.jsp.Assignment;
 
 import java.util.Iterator;
