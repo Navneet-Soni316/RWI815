@@ -1,4 +1,4 @@
-package com.jsp.ArrayList;
+package com.jsp.Stack;
 
 import java.util.List;
 import java.util.Stack;
